@@ -1,0 +1,115 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.hero h1 {
+     text-transform: uppercase;
+     font-weight: 900;
+     font-size: 60px;
+}
+.hero {
+     padding-top: 150px !important;
+     height: 93vh;
+     width: 100%;
+     background-image: url(Images/black-friday-sale-banner_91128-1086.webp);
+     /* cover no-repeat center */
+
+}
+.her {
+     place-self: center;
+}
+.hero p {
+     text-transform: lowercase;
+     font-size: 14px;
+}
+.hero h3 {
+     text-transform: capitalize;
+     font-size: 16px;
+}
+.he {
+     width: 100%;
+}
+.he h1 {
+     text-transform: uppercase;
+     font-size: 40px;
+}
+.cat h3 {
+     text-transform: uppercase;
+     font-size: 20px;
+}
+.cat p {
+     text-transform: uppercase;
+     font-size: 14px;
+}
+.ww {
+     font-size: 30px;
+     text-transform: uppercase;
+}
+.col-md-5:hover {
+     box-shadow: 0 8px 16px 0 #198754;
+     margin-top: -5px;
+}
+.ff h3 {
+     font-size: 16px;
+     text-transform: capitalize;
+}
+.ff h1 {
+     text-transform: uppercase;
+     font-size: 20px;
+}
+.hr {
+     border-bottom: 2px #198754 solid;
+}
+
+
+/* Shop Page */
+.shop {
+     width: 100%;
+     background: url(Images/assortment-men-s-running-shoes-shop-window-al-generated_866663-1813.webp);
+}
+.shop h1 {
+     text-transform: uppercase;
+}
+.sc .active{
+     padding: 5px;
+     background: #198754;
+     border: none;
+     border-radius: 100%;
+}
+.sc h5{
+     padding: 5px;
+     background: #1987544b;
+     border: none;
+     border-radius: 100%;
+}
+
+/* About Page */
+.sh {
+     width: 100%;
+     background: url(Images/jumping-legs-smoke_23-2147775545.webp);
+}
+.gg {
+     height: 70vh;
+     width: 100%;
+     overflow: hidden;
+     background: linear-gradient(to right, black,  rgba(0, 0, 0, 0.466), white);
+}
+.gg img {
+     box-shadow: 30px 30px black;
+}
+.dd {
+     border: none;
+     border-right: 1px solid black;
+     border-radius: 0;
+}
+.ddd {
+     border: none;
+}
+.dd .h5 {
+     text-transform: uppercase;
+}
+.cc img {
+     border: none;
+     border-radius: 100%;
+}

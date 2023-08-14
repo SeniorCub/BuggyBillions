@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     
+
+     <script>
+          // Not a Sunny Day
+          let sunny = false;
+          let winter = true;
+          if (sunny) {
+               console.log("It's a Sunny Day");
+          } else {
+               console.log("It's not a Sunny Day");
+          };
+
+          // A Sunny Day
+          let sun = true;
+          let win = false;
+          if (win) {
+               console.log("It's not a Sunny Day");
+          } else {
+               console.log("It's a Sunny Day");
+          };
+
+          // User age below 18 and above 40 are not allowed
+          let userName = window.prompt("Enter your Username: ");
+          let userAge = window.prompt("Enter your Age: ");
+          if (userAge < 18) {
+               console.log(`${userName} you are less then 18. You are a Kid. Get the Fuck!!!`);
+          } else if (userAge >40) {
+               console.log(`${userName} you are older than 40. You are to Old. Go and take care of your children`);
+          } else {
+               console.log(`${userName} you are of age. You are allowed`);
+          };
+          console.log(userName);
+          console.log(userAge);
+
+          // Classwork
+          if (userAge >= 18 && userAge <= 40) {
+               console.log(`${userName} You are allowed`);
+          } else {
+               console.log(`${userName} You are not allowed`);
+          }
+     </script>
+</body>
+</html>

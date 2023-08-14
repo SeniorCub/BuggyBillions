@@ -1,0 +1,53 @@
+section {
+     height: 91vh;
+}
+.hero {
+     width: 100%;
+     position: relative;
+     background-image: url(assortment-men-s-running-shoes-shop-window-al-generated_866663-1813.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.hero h1 {
+     font-size: 70px;
+     font-weight: 900;
+}
+.hero p {
+     font-size: 20px;
+}
+.text {
+     position: absolute;
+     bottom: 0;
+}
+.circle {
+     width: 300px;
+     height: 200px;
+     border: 1px solid black;
+     border-radius: 100%;
+     background: khaki;
+}
+.lgbox {
+     width: 300px;
+     height: 200px;
+     border: 1px solid black;
+     background: khaki;
+}
+.smbox {
+     border: 1px solid black;
+     width: 150px;
+     height: 100px;
+     background: gray;
+}
+.card-img-top {
+     margin-top: -50px;
+     border-radius: 100%;
+     width: 200px;
+}
+.dd {
+     position: relative;
+}
+.ddd {
+     position: absolute;
+     bottom: 10%;
+     left: 40%;
+}

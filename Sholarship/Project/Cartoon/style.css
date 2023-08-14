@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 83vh;
+}
+.cont {
+    height: 100%;
+    background-image: url(img/night-ocean-landscape-full-moon-stars-shine_107791-7397.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+.content h6 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.main {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btt::after {
+    position: absolute;
+    content: '';
+    background-color: black;
+    width: 0;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+}

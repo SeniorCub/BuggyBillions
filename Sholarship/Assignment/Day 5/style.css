@@ -1,0 +1,131 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.hero {
+     padding: 30px 40px;
+     background-color: whitesmoke;
+     height: 100vh;
+     animation: bdg;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-delay: 5s;
+}
+.sun {
+     width: 100px;
+     height: 100px;
+     background-color: yellow;
+     border: none;
+     border-radius: 100%;
+     float: right;
+     animation: sum;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     animation-delay: 5s;
+}
+.stars {
+     position: relative;
+}
+.sta {
+     position: absolute;
+     padding: 20px 50px;
+}
+.r1 {
+     left: 100px;
+}
+.r2 {
+     left: 200px;
+}
+.r3 {
+     left: 300px;
+}
+.r4 {
+     left: 400px;
+}
+.r5 {
+     left: 500px;
+}
+.r6 {
+     left: 600px;
+}
+.r7 {
+     left: 700px;
+}
+.r8 {
+     left: 800px;
+}
+.r9 {
+     left: 900px;
+}
+.r10 {
+     left: 1000px;
+}
+.r11 {
+     right: 100px;
+}
+.r12 {
+     right: 200px;
+}
+.r13 {
+     right: 300px;
+}
+.r14 {
+     right: 400px;
+}
+.r15 {
+     right: 500px;
+}
+.r16 {
+     right: 600px;
+}
+.r17 {
+     right: 700px;
+}
+.r18 {
+     right: 800px;
+}
+.r19 {
+     right: 900px;
+}
+.r20 {
+     right: 1000px;
+}
+.container {
+     width: 100%;
+     height: 600px;
+     padding-top: 180px;
+}
+.image {
+     position: relative;
+     animation: car 5s linear infinite;
+}
+.grass {
+     border: green dashed 5px;
+}
+@keyframes bdg {
+     0% {
+          background-color: white;
+     }
+     100% {
+          background-color: black;
+     }
+}
+@keyframes sum {
+     0% {
+          background-color: yellow;
+     }
+     100%{
+     background-color: whitesmoke;
+     }
+}
+@keyframes car {
+     from{
+          /* float: left; */
+          left: -100px;
+     }
+     to{
+          /* float: right; */
+          left: 100%;
+     }
+}

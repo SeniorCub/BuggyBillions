@@ -1,0 +1,33 @@
+.bags {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 20px;
+    place-items: center;
+}
+.bag {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+@media (max-width: 767px)  {
+    .bags {
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 500px)  {
+    .bags {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .bag {
+        width: 150px;
+        height: 100px;
+    }
+}
+@media (max-width: 350px)  {
+    .bag {
+        width: 100px;
+        height: 100px;
+    }
+}

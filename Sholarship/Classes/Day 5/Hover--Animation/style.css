@@ -1,0 +1,18 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.box {
+     width: 200px;
+     height: 200px;
+     background-color: #242424;
+     transition-duration: 5s;
+     transition-property: all;
+     transition-delay: 3s;
+     transition-timing-function: cubic-bezier(1,0,0,1);
+}
+.box:hover {
+     background-color: yellow;
+     border-radius: 100%;
+}

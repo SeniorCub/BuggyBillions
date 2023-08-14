@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <!-- Using JavaScript to Check PC time -->
+    <p id="time"></p>
+    <button type="button" onclick="document.getElementById('time').innerHTML=Date()">Check Time</button>
+
+    <!-- Using JavaScript to change an existing text -->
+    <p id="text">What is My Name??</p>
+    <button type="button" onclick="document.getElementById('text').innerHTML='My name is Reuben'">Change</button>
+
+    <!-- Write a text infront of another -->
+   <p>What is the name of your School??</p>
+   <p>Answer: <span id="ans"></span></p>
+   <button type="button" onclick="document.getElementById('ans').innerHTML='Lautech'">Click Me !!!</button>
+
+    <!-- To change Font Size -->
+    <p id="size">I am Big</p>
+    <button type="button" onclick="document.getElementById('size').style.fontSize='50px'">Change Size</button>
+    <!-- To hide text -->
+    <button type="button" onclick="document.getElementById('size').style.display='none'">Hide</button>
+    <!-- To show text back -->
+    <button type="button" onclick="document.getElementById('size').style.display='block'">Show</button>
+
+    <!-- Change Color of a Box -->
+    <div id="box" type="button" onclick="document.getElementById('box').style.borderRadius='60px'"></div>
+
+    <!-- Bulb -->
+    <div class="" style="text-align: center;">
+        <button type="button" onclick="document.getElementById('image').src='on.png'">On</button>
+        <img id="image" src="on.png" alt="a bulb">
+        <button type="button" onclick="document.getElementById('image').src='off.png'">Off</button>
+    </div>
+
+    <div class="" style="text-align: center; padding: 50px;">
+        <button style="background-color: red;" type="button" onclick="document.getElementById('body').style.backgroundColor='Red'">Red</button>
+        <button style="background-color: green;" type="button" onclick="document.getElementById('body').style.backgroundColor='green'">Green</button>
+        <button style="background-color: blue;" type="button" onclick="document.getElementById('body').style.backgroundColor='blue'">Blue</button>
+        <button style="background-color: blueviolet;" type="button" onclick="document.getElementById('body').style.backgroundColor='blueViolet'">Blue Violet</button>
+        <button style="background-color: yellow;" type="button" onclick="document.getElementById('body').style.backgroundColor='Yellow'">Yellow</button>
+    </div>
+</body>
+</html>

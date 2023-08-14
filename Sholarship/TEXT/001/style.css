@@ -1,0 +1,161 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     list-style-type: none;
+}
+.section {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+}
+.navBar {
+     padding: 30px 50px;
+     width: 20%;
+     height: 100%;
+     background: gray;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+.logo {
+     width: 200px;
+}
+.logo img {
+     width: 100%;
+}
+.links {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 25px;
+}
+.links a{
+     text-decoration: none;
+     color: black;
+     font-size: 25px;
+}
+.links a:hover {
+     border-radius: 10px;
+     padding: 10px;
+     background: transparent;
+     color: red;
+     border: 1px white solid;
+}
+.content {
+     width: 80%;
+     background: wheat;
+}
+button {
+     padding: 10px;
+     border: none;
+     background: transparent;
+     color: red;
+     border: 1px white solid;
+     font-size: 25px;
+     border-radius: 20px;
+}
+button:hover {
+     border: 1px red solid;
+     border-radius: 20px;
+     color: white;
+}
+.fac {
+     text-align: center;
+}
+.fac h1 {
+     margin-bottom: 20px;
+     font-size: 50px;
+}
+.list {
+     gap: 30px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     place-items: center;
+     justify-content: space-around;
+}
+.list h3 {
+     padding: 20px;
+     font-size: 25px;
+}
+.list h5 {
+     font-size: 15px;
+     color: red;
+}
+.mm {
+     display: flex;
+     place-items: center;
+     flex-direction: column;
+}
+.ll {
+     margin-top: 15px;
+     width: 300px;
+     background: white;
+     padding: 20px;
+}
+.s1 {
+     border-top: 10px black solid;
+     display: block;
+     background: gray;
+}
+.boxes {
+     margin: 30px 300px;
+     background: white;
+     width: 800px;
+     height: 600px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+}
+.box {
+     height: 200px;
+     border: 10px solid black;
+}
+.box1 {
+     border-top: none;
+     border-left: none;
+}
+.box2 {
+     border-left: none;
+}
+.box3 {
+     border-left: none;
+     border-bottom: none;
+}
+.box4 {
+     border-top: none;
+}
+.box6 {
+     border-bottom: none;
+}
+.box7 {
+     border-top: none;
+     border-right: none;
+}
+.box8 {
+     border-right: none;
+}
+.box9 {
+     border-right: none;
+     border-bottom: none;
+}
+
+
+/* 
+.fac {
+     text-align: center;
+}
+h1 {
+     margin-bottom: 50px;
+}
+h3 {
+     margin-bottom: 20px;
+}
+
+.fact {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 30px;
+     justify-content: center;
+
+} */

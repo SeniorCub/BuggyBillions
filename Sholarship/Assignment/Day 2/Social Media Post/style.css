@@ -1,0 +1,61 @@
+/* h1 font Tektur */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+/* h5 font Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+section {
+     margin-top: 70px;
+     padding: 20px;
+     border: none;
+     border-radius: 5%;
+     background-color: peru;
+     width: 400px;
+     height: 500px;
+     margin-left: 35%;
+
+}
+.inner {
+     display: flex;
+     gap: 10px;
+     padding-bottom: 5px;
+}
+.profile img {
+     border-radius: 100%;
+     width: 30px;
+     height: 30px;
+}
+h1 {
+     font-family: 'Tektur', cursive;
+     font-weight: 600;
+     font-size: 20px;
+}
+h5 {
+     font-family: 'Josefin Sans', sans-serif;
+     font-weight: 300;
+     padding-bottom: 10px;
+}
+.post {
+     padding-bottom: 5px;
+}
+.post img {
+     width: 350px;
+}
+.icons {
+     display: flex;
+     gap: 10px;
+     padding-bottom: 5px;
+}
+.heart:hover {
+     color: red;
+}
+.comment:hover {
+     color: blue;
+}
+.share:hover {
+     color: green;
+}

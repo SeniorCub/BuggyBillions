@@ -1,0 +1,92 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+#na {
+     padding-right: 100px;
+}
+li a{
+     text-transform: uppercase;
+}
+#na li a {
+     color: white;
+}
+.nan li a {
+     color: blue;
+     font-weight: 800;
+     font-size: large;
+}
+.hero {
+     height: 100vh;
+     width: 100%;
+     background: url(img/_import_62e0e4cdcfdd99.39998160_FPpreview.mp4);
+     background-repeat: no-repeat;
+}
+.bnb {
+    border-radius: 30px;
+}
+/* 
+@media (min-width: 990px) {
+     .nan{
+          padding-left: 200px;
+     }
+     
+}
+@media (max-width: 760px) {
+     #na {
+          display: none;
+     }
+} */
+
+body, html {
+     margin: 0;
+     padding: 0;
+   }
+   
+   .hero {
+     position: relative;
+     height: 100vh;
+     overflow: hidden;
+   }
+   
+   .video-container {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     z-index: -1;
+   }
+   
+   video {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   
+   .hero-content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     color: #fff;
+     z-index: 1;
+   }
+   
+   /* Optional: Add animation to the hero content for a fade-in effect */
+   @keyframes fadeIn {
+     from {
+       opacity: 0;
+     }
+     to {
+       opacity: 1;
+     }
+   }
+   
+   .hero-content {
+     animation: fadeIn 1.5s ease-in-out;
+   }
+   

@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    position: fixed;
+    width: 90%;
+    background-color: #f8f8ff;
+    top: 0;
+}
+nav h3{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav button{
+    background-color:transparent;
+    color: black;
+    border: none;
+    padding: 10px 35px;
+    border: 1px solid black;
+}
+.body p{
+    font-size: 25px;
+}
+.body p a{
+    color: black;
+    font-size: 17px;
+}
+img{
+
+    width:100%;
+}
+.body{
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.082);
+
+}
+section{
+    padding: 60px 40px;
+
+}
+.second{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.second p a{
+    color: black;
+}
+
+.girl img{
+    width: 450px;
+}
+.video{
+    width: 400px;
+    height: 450px;
+}
+.head{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 0px;
+}
+.head p a{
+    text-decoration: none;
+}
+
+.below{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.pin img{
+    width: 500px;
+    height: 350px;
+    padding-top: 100px;
+}
+.chain img{
+    width: 550px;
+    height: 550px;
+}
+.chain a{
+    color: black;
+}
+.fourth{
+     margin-left: 120px;
+}
+.what img{
+    width: 450px;
+}
+.fourth a{
+    color: black;
+    
+}
+.what p{
+    font-size: 17px;
+}
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+}
+.head {
+     padding: 20px 30px;
+     background: green;
+}
+.heaed img {
+     z-index: -2;
+}
+nav {
+     position: fixed;
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+     width: 90%;
+}
+.line {
+     width: 30px;
+     height: 2px;
+     background-color: black;
+}
+.lines {
+     display: flex;
+     flex-direction: column;
+     gap: 4.5px;
+}
+.menu {
+     display: none;
+}
+img {
+     width: 100%;
+     height: 100%;
+}
+nav h1 {
+     font-family: cursive;
+     font-size: 40px;
+}
+ul {
+     display: flex;
+     place-items: center;
+     gap: 20px;
+     list-style: none;
+     color: black;
+     font-size: 20px;
+}
+.hero {
+     padding-top: 200px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.part1 {
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+     padding: 40px;
+}
+.part1 h1 {
+     color: aliceblue;
+}
+h1 {
+     font-size: 50px;
+}
+.sec {
+     background: yellow;
+     border: none;
+     padding: 10px 20px;
+     color: rgb(253, 3, 3);
+     border-radius: 5%;
+     font-size: 20px;
+}
+.prim {
+     background: white;
+     border: 1px solid black;
+     padding: 10px 20px;
+     color: black;
+     border-radius: 25%;
+}
+.but {
+     display: flex;
+     gap: 50px;
+     padding-top: 30px;
+     place-items: center;
+     place-content: center;
+}

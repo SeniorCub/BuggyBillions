@@ -1,0 +1,64 @@
+.nva {
+     padding: 10px 30px;
+}
+.bbbb {
+     background-color: #E94C24;
+}
+.bbb {
+     border: 1px #E94C24 solid;
+     color: #E94C24;
+}
+.main-content {
+  height: 100vh;
+  width: auto;
+}
+.cos1 {
+     margin-top: 10%;
+}
+.cos1 h1 {
+     font-size: 50px;
+}
+.cos img {
+     width: fit-content;
+     height: 90%;
+}
+.cta-btn {
+  background-color: #E94C24;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  animation: pulse 2s infinite;
+}
+.dd {
+     color: #E94C24;
+}
+.ccc {
+     display: flex;
+     place-content: center;
+}
+.cc {
+     margin-top: 50px;
+     height: 100vh;
+     width: 100%;
+     place-content: center;
+}
+
+@keyframes pulse {
+     0% {
+       transform: scale(1);
+     }
+     50% {
+       transform: scale(1.2);
+     }
+     100% {
+       transform: scale(1);
+     }
+   }
+
+@media (max-width: 767px) {
+     .nn{
+          display: flex;
+          justify-content: space-between;
+     }
+}

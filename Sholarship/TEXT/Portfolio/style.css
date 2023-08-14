@@ -1,0 +1,156 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+section {
+     padding: 10px 50px;
+}
+
+/* Nav Bar */
+nav {
+     background: gray;
+     height: 100px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+     position: fixed;
+}
+.brandLogo {
+     height: 70px;
+}
+.brandLogo img {
+     width: 100%;
+     height: 100%;
+}
+.name {
+     font-size: 2em;
+     font-family: cursive;
+}
+.links {
+     padding: 20px;
+}
+.links a {
+     color: #f2f2f2;
+     text-align: center;
+     padding: 10px;
+     text-decoration: none;
+     font-size: x-large;
+}
+.links a:hover {
+     background-color: #508AC7;
+     color: black;
+}
+
+/* Hero Section...Home */
+.hero {
+     padding-top: 150px;
+     height: 100vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     place-items: center;
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6),
+     rgba(0, 0, 0)), url(images/sections/web.png);
+}
+.text {
+     display: flex;
+     flex-direction: column;
+}
+.text h3 {
+     font-size: 40px;
+     text-transform: capitalize;
+     color: #f2f2f2;
+}
+.text h5 {
+     font-size: 7em;
+     color: #D02751;
+}
+.text p {
+     font-size: 15px;
+     color: #f2f2f2;
+}
+.but {
+     place-self: center;
+}
+.but a {
+     font-size: large;
+     color: #f2f2f2;
+}
+.but button {
+     margin-top: 50px;
+     width: 150px;
+     padding: 20px;
+     background: transparent;
+     border-radius: 20px;
+}
+.but .ler {
+     margin-right: 100px;
+     border: 2px #f2f2f2 solid;
+     background: #D02751;
+}
+.but .abb {
+     margin-right: 100px;
+     border: 2px #D02751 solid;
+}
+.ler:hover {
+     background: transparent;
+}
+.abb:hover{
+     background: #D02751;
+     border: 2px #f2f2f2 solid;
+}
+.hero img {
+     width: 100%;
+     height: 100%;
+}
+
+/* About */
+#about h1 {
+     padding-top: 60px;
+     padding-bottom: 20px;
+     font-size: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+.main-certificate {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+}
+.main-certificate img {
+     width: 50%;
+     height: 50%;
+}
+.main {
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     place-items: center;
+     gap: 20px;
+}
+.main h3 {
+     font-size: 40px;
+}
+.main p {
+     font-size: 25px;
+}
+
+/*cerificate table*/
+.Certificate table{
+     text-align: center;
+     background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.2),
+     rgba(0, 0, 0, 0.7)), url(./images/logos/400.png);
+     background-attachment: fixed;
+ }
+ div table tr td img{
+     width: 100px;
+     height: 50px;
+     overflow: scroll;
+ }
+ .Certificate table h1{
+     font-size: 2em;
+     font-family: cursive;
+     font-weight: 900;
+     text-align: center;
+ }

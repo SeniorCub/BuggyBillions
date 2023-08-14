@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     
+     <h1 class="counter-number">0</h1>
+     <button class="decrement">-</button>
+     <button class="increment">+</button>
+
+
+
+     <script>
+          // let ame = document.getElementById();
+          // var age = 0;
+
+          function userAge () {
+               age = 2023 - 1998
+               console.log(age);
+          }
+          userAge();
+
+          function userName (ame) {
+               console.log(ame);
+          }
+          userName ("Ade");
+
+          let name = "ayo"
+          function user() {
+               let name = 'sade'
+               console.log(name);
+          }
+          user()
+          console.log(name);
+
+          function addition(a,b) {
+          console.log(a+b);               
+          }
+          addition(3,5);
+
+          let number = document.querySelector('.counter-number');
+          let decrease = document.querySelector('.decrement').addEventListener('click',sub);
+          let increase = document.querySelector('.increment').addEventListener('click',add);
+          let count = 0
+
+          function sub() {
+               count = count - 1;
+               number.innerHTML = count
+          }
+          function add() {
+               count = count + 1;
+               number.innerHTML = count
+          }
+
+          // let workers = [
+          //      {name : 'Reuben', age : 21},
+          //      {name : 'Abel', age : 19},
+          //      {name : 'Fola', age : 28},
+          //      {name : 'Ife', age : 17},
+          //      {name : 'Ade', age : 23}
+          // ];
+          // console.log(workers[1].age);
+
+          // if (age <= 20) {
+               
+          // }
+     </script>
+</body>
+</html>
