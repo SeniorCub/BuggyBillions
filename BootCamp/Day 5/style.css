@@ -1,0 +1,27 @@
+#form {
+     text-align: center;
+     padding: initial;
+     padding: 100px;
+     width:250px;
+     border: solid 2px;
+     border-radius: 30px;
+     background-color: rgb(42, 156, 118);
+ }
+ legend {
+     font-size:xx-large;
+     font-weight:800;
+     padding:20px;
+ }
+ input {
+     margin:5px;
+ }
+ button {
+    border-radius : 60px;
+    margin : 15px;
+    background-color : transparent;
+    font-weight : 700;
+ }
+ button:hover {
+     background:rgb(255, 255, 255);
+     
+ }

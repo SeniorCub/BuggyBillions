@@ -1,0 +1,13 @@
+body {
+     text-align: center;
+     background:blueviolet;
+ } 
+ button {
+      background: red;
+      font-size:20px;
+      border-radius: 30px;
+ }
+ button:hover {
+     background:blue
+ }
+ 

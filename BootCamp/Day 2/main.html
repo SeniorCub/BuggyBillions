@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Day 2</title>
+</head>
+<body>
+     <h1 id="first">Hello</h1>
+     <h2 class="second">I attend today's Program</h2>
+     <h3 class="third">I will love to learn JavaScript</h3>
+     <h4 id="forth">JavaScript is sweeten me</h4>
+     <h5 class="fifth">New thing in JavaScript</h5>
+     <h6 class="six">Finally, I'am good.</h6>
+     <h1 class="name">Finally, I'am good.</h1>
+     <button type="submit" class="sign"> Submit</button>
+
+
+     <script>
+      //Using Get Element By iD
+      let myFirst = document.getElementById('first')
+      console.log(myFirst)
+
+      //Using Get Element By ClassName, its not advicable because it wil not give yoou the right output
+      let mySecond = document.getElementsByClassName('second')
+      console.log(mySecond)
+
+       // Using Query Selector for Class
+       let myThird = document.querySelector('.third')
+       console.log(myThird)
+
+      // Using Query Selector for ID
+      let myForth = document.querySelector('#forth')
+
+      let myfifth = document.querySelector('.fifth')
+      console.log(myfifth)
+
+      let mysix = document.querySelector('.six')
+      console.log(mysix)
+
+      // Using Query Selector for html tags
+      let mybutton = document.querySelector('button')
+      console.log(mybutton)
+     
+      // Manipulating content
+      let myname = document.querySelector('.name')
+      myname.textContent = "My name is Reuben"
+      mysix.innerText = "Hey, nice to meet you"
+      myForth.innerHTML = "I love BuggyBillons"
+
+      // styling html content
+     myfifth.style.display = 'none'
+     myFirst.style.color = 'red'
+     myname.style.fontSize = '50px'
+     myFirst.style.textAlign = 'center'
+     mybutton.style.borderRadius = '60px'
+     mybutton.style.color = 'green'
+
+     //Arithmetic
+     let a = 1
+     let b = 2
+     let c = 3
+     let d = 4
+     let result = a + b
+     let results = a + b
+     results += d
+     let red = d - c
+     let res = d / 2
+     
+     console.log(res)
+     console.log(red)
+     console.log(results)
+     console.log(result)
+     </script>
+</body>
+</html>
