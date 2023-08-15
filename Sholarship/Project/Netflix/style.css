@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.hero {
+     padding: 30px 100px;
+     height: 100vh;
+     border-bottom: 5px gray solid;
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),
+     rgba(0, 0, 0, 0.6)), url(netflix\ image/NG-en-20230717-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+.head {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 150px;
+}
+.logo img {
+     width: 150px;
+}
+.sign button {
+     padding: 5px 15px;
+     background-color: red;
+     color: antiquewhite;
+     border-radius: 10%;
+     border: none;
+}
+.info {
+     text-align: center;
+     color: antiquewhite;
+}
+.info h2 {
+     font-size: 45px;
+     padding-bottom: 10px;
+}
+.info h3 {
+     font-size: 25px;
+     font-weight: 300;
+     padding-bottom: 10px;
+}
+.email {
+     margin-top: 20px;
+}
+.input {
+     color: black;
+}
+.email input {
+     padding: 10px;
+     width: 300px;
+     height: 40px;
+     border: 1px gray solid;
+     margin-right: 5px;
+     background-color: rgba(0, 0, 0, 0.7);
+}
+.email button {
+     padding: 5px 15px;
+     background-color: red;
+     color: antiquewhite;
+     border-radius: 10%;
+     height: 40px;
+     border: none;
+}
+.enjoy {
+     background-color: black;
+     padding: 30px 100px;
+     height: 80vh;
+     border-bottom: 5px gray solid;
+     color: aliceblue;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     place-content: center;
+     text-align: left;
+     align-items: center;
+}
+.en {
+     height: 50vh;
+}
+.enjoy h2 {
+     padding-top: 8%;
+     font-size: 60px;
+}
+.enjoy p {
+     padding-top: 10px;
+     font-size: 30px;
+}
+.FAQs {
+     background-color: black;
+     padding: 30px 100px;
+     border-bottom: 5px gray solid;
+     color: aliceblue;
+     text-align: center;
+     padding-top: 70px;
+     padding-bottom: 70px;
+     font-family: 'PT Sans', sans-serif;
+     font-weight: 400;
+}
+.ema input {
+     padding: 10px;
+     width: 300px;
+     height: 40px;
+     border: 1px gray solid;
+     margin-right: 5px;
+     background-color: rgba(117, 117, 117, 0.185);
+}
+.ema button {
+     margin-top: 10px;
+     padding: 5px 15px;
+     background-color: red;
+     color: antiquewhite;
+     border-radius: 10%;
+     height: 40px;
+     border: none;
+}
+.que {
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.ques {
+     margin-top: 8px;
+     padding: 10px 30px;
+     background-color: rgba(128, 128, 128, 0.34);
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+}
+.footer {
+     padding: 10px 100px;
+     background-color: black;
+     color: white;
+}
+.footer h1 {
+     margin-bottom: 50px;
+}
+.links {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 15px;
+     justify-content: space-between;
+     margin-bottom: 30px;
+}
+.footer a {
+     color: white;
+}
+#lang {
+     color: white;
+     background-color: rgba(128, 128, 128, 0.34);
+     border: 0.5px solid white;
+     padding: 5px 10px;
+     border-radius: 10%;
+     margin-bottom: 20px;
+}
+@media (max-width: 1330px) {
+     .enjoy h2 {
+          font-size: 40px;
+     }
+     .enjoy p {
+          font-size: 15px;
+     }
+     .enjoy img {
+          width: 100%;
+     }
+}
+@media (max-width: 670px) {
+     .info h2 {
+          font-size: 25px;
+     }
+     .info h3 {
+          font-size: 15px;
+     }
+     .ema input {
+          width: 150px;
+     }
+     .email input {
+          width: 150px;
+     }
+     .logo img {
+          width: 50px;
+     }
+     .enjoy h2 {
+          font-size: 25px;
+     }
+     .ques { 
+          font-size: 10px;
+     }
+     .footer h1 {
+          font-size: 20px;
+     }
+     .links {
+          font-size: 10px;
+     }
+     .footer h2 {
+          font-size: 15px;
+     }
+}

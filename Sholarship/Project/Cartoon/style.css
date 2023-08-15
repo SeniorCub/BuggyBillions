@@ -3,12 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-section {
-    height: 83vh;
-}
 .cont {
-    height: 100%;
-    background-image: url(img/night-ocean-landscape-full-moon-stars-shine_107791-7397.webp);
+    height: 82vh;
+    background-image: url(img/240_F_125168818_FAWDEEKBh7NioSNCc0IYWLZOWQZHwjw2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -27,12 +24,6 @@ section {
     text-transform: uppercase;
     font-weight: 700;
 }
-.btt::after {
-    position: absolute;
-    content: '';
-    background-color: black;
-    width: 0;
-    height: 5px;
-    left: 0;
-    bottom: 0;
+.testi {
+     margin-top: 50px;
 }
