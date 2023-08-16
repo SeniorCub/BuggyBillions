@@ -1,0 +1,44 @@
+.dash {
+     height: 100vh;
+}
+.bg-grey {
+     margin-top: 70px;
+     background-color: gray;
+     height: 500px;
+}
+.hg {
+     height: 100vh;
+}
+.co {
+     background-color: white;
+     width: 200px;
+     height: 200px;
+     border-radius: 20px;
+     box-shadow: 5px 5px rgba(0, 0, 0, 0.479);
+}
+.bo {
+     padding: 50px;
+     margin-top: 50px;
+     border-radius: 10px;
+     width: 650px;
+     height: 250px;
+     box-shadow: 15px 15px 10px gray;
+}
+.img, img {
+     width: 100px;
+     height: 100px;
+     border-radius: 100%;
+}
+.username {
+     font-weight: 100;
+}
+h4 {
+     color: white;
+     padding: 20px;
+}
+h4:hover {
+     box-shadow: 5px 5px 10px gray;
+}
+button{
+     width: 100px;
+}
