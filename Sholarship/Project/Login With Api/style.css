@@ -1,0 +1,28 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+nav {
+     place-items: center;
+}
+section, .col {
+     height: 91vh;
+}
+.link {
+     text-align: center;
+     height: 30px;
+     text-decoration: none;
+     color: white;
+     font-weight: 600;
+     border-bottom: 1px solid black;
+}
+.active {
+     color: black;
+     box-shadow: 5px 5px 10px black;
+}
+.link:hover {
+     box-shadow: 5px 5px 10px black;
+     background-color: white;
+     color: black;
+}
