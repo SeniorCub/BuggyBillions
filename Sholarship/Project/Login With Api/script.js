@@ -1,4 +1,5 @@
 let idd = window.prompt("Enter user id")
+const body = document.querySelector("body")
 const name = document.querySelector(".name")
 const username = document.querySelector(".username")
 const phone = document.querySelector(".phone")
@@ -19,4 +20,5 @@ if (idd <= 10 && idd >= 0) {
 })
 }else {
      alert("You are not a user")
+     body.innerHTML = `<h1 style='text-align:center;'> This Id: ${idd} is not recognised</h1>`
 }

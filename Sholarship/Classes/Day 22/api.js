@@ -82,3 +82,39 @@ fetch(den).then(Response => Response.json()).then(dotun => {
 .catch(error => {
      console.log('Error Fetching Data: ', error);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let link = "https://jsonplaceholder.typicode.com/users"
+
+let info = async() => {
+     let getting = await fetch(link)
+     let get = await getting.json()
+     get.forEach(get => {
+          console.log(get.address.geo.lng);
+     });
+     // console.log(get);
+}
+info()

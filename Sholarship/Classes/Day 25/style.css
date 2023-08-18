@@ -1,0 +1,23 @@
+div {
+     margin-top: 250px;
+     justify-content:center; 
+     display:flex; 
+     gap:50px;
+}
+button {
+     background-color: red;
+     padding: 10px;
+     color: white;
+     font-size: larger;
+     border-radius: 50px;
+     border: none;
+}
+button:nth-child(2) {
+     filter: hue-rotate(60deg);
+}
+button:nth-child(3) {
+     filter: hue-rotate(180deg);
+}
+button:nth-child(4) {
+     filter: hue-rotate(290deg);
+}
