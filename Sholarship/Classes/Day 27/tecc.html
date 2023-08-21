@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <!-- 0 = this is not a valid age
+          1-10 = You are an Infant 
+          11-12 = Keep growing 
+          13-17 = Hey teenager you are almost there
+          18 = You are in
+          50 = You are OLd-->
+
+          
+          <button class="btn">Verify</button>
+
+     
+     <script>
+          
+          let btn = document.querySelector('.btn')
+          btn.addEventListener('click',verify)
+
+          function verify() {
+               let age = window.prompt('Enter Your age:')
+
+               if (age < 1){
+                    alert('This is not a valid age')
+               }else if (age >= 1 && age <= 10) {
+                    alert('You are an Infant')
+               }else if (age >= 11 && age <= 12) {
+                    alert('Keep growing')
+               }else if (age >= 13 && age <= 17) {
+                    alert('Hey teenager you are almost there')
+               }else if (age >= 18 && age < 50) {
+                    alert('You are in')
+               }else if (age > 50) {
+                    alert('You are Old')
+               }
+          };
+
+     </script>
+</body>
+</html>
