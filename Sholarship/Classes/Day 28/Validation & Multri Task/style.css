@@ -1,0 +1,129 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+/* Nav Bar */
+nav {
+     padding: 15px 60px;
+     display: flex;
+     background-color: gray;
+     color: white;
+     justify-content: space-between;
+     align-items: center;
+}
+nav .brand {
+     font-size: 25px;
+     font-weight: 700;   
+}
+nav .header {
+     font-size: 25px;
+     font-weight: 700;
+     margin: 0 auto;
+}
+/* Form One */
+.form-page {
+     height: 90vh;
+     width: 100%;
+     background-color: #a7a7b4a4;
+     display: flex;
+}
+.container {
+     margin: auto;
+     width: 40%;
+     background-color: gray;
+     justify-content: center;
+     border-radius: 15px;
+     color: #fff;
+     height: 75%;
+     overflow-x: hidden;
+}
+.steps {
+     position: relative;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     border-bottom: 1px solid #333;
+}
+.steps div {
+     padding: 7px 10px;
+     text-align: center;
+}
+.step1 {
+     border-right: 1px solid #333;
+}
+.step3 {
+     border-left: 1px solid #333;
+}
+.step1, .step2, .step3{
+     z-index: 1;
+}
+.line {
+     position: absolute;
+     width: 33.3%;
+     top: 0;
+     bottom: 0;
+     background-color: black;
+
+}
+.forms {
+     display: flex;
+     position: relative;
+}
+form {
+     padding: 20px 40px;
+     display: grid;
+     position: absolute;
+     /* top: 40px; */
+}
+.form1 {
+     left: 100px;
+}
+.form2 {
+     left: 550px;
+}
+.form3 {
+     left: 1000px;
+}
+.label {
+     margin: auto;
+     display: grid;
+}
+input {
+     border: none;
+     border-bottom: 1px solid #333;
+     border-radius: 10px;
+     margin: 15px;
+     outline: none;
+     padding: 10px;
+     background-color: transparent;
+     color: #fff;
+}
+.movement {
+     width: 100%;
+}
+.next {
+     padding: 7px 15px;
+     float: right;
+     border: 1px #333 solid;
+     background-color: transparent;
+     color: #fff;
+     border-radius: 6px;
+     transition: .2s;
+}
+.next:hover {
+     background-color: #fff;
+     color: #333;
+}
+.back {
+     padding: 7px 15px;
+     float: left;
+     border: 1px #333 solid;
+     background-color: transparent;
+     color: #fff;
+     border-radius: 6px;
+     transition: .2s;
+}
+.back:hover {
+     background-color: #fff;
+     color: #333;
+}

@@ -29,15 +29,6 @@ function go() {
      }else {
           alert("You are not a user")
           body.innerHTML = `<h1 style='text-align:center;'> This Id: ${idd} is not recognised</h1>`
+          // window.location('index.html')
      }
 };
-
-
-let get = async() => {
-     let getting = await fetch(link)
-     let gett = await getting.json()
-     gett.forEach(gett => {
-          console.log(gett.address)
-     });
-}
-get()
