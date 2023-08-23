@@ -78,7 +78,7 @@ nav .header{
 
 .forms{
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     /* overflow: hidden; */
     position: relative;
@@ -104,7 +104,7 @@ form{
     left: 600px;
 }
 .form3{
-     top: 50px;
+     top: 120px;
     left: 1070px;
 }
 
