@@ -39,7 +39,7 @@ nav .header{
     margin: auto;
     color: #fff;
     height: 75%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 
@@ -117,24 +117,27 @@ nav .header{
 form{
     padding: 20px 40px;
     display: grid;
-   
 }
 
 .form1{
      top: 50px;
     left: 130px;
+    transition: 1.5s;
 }
 .form2{
      top: 50px;
     left: 600px;
+    transition: 1.5s;
 }
 .form3{
      top: 120px;
     left: 1070px;
+    transition: 1.5s;
 }
 .form4{
      top: 120px;
     left: 1540px;
+    transition: 1.5s;
 }
 .for {
      display: flex;
