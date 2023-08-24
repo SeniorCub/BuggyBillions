@@ -13,7 +13,9 @@ function btn_next1() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
+     const line2 =document.querySelector('.line2')
 
+     line2.style.display = 'block'
      form1.style.left = '-600px'
      form2.style.left = '130px'
      form3.style.left = '600px'
@@ -23,7 +25,9 @@ function btn_next2() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
+     const line3 =document.querySelector('.line3')
 
+     line3.style.display = 'block'
      form1.style.left = '-1070px'
      form2.style.left = '-600px'
      form3.style.left = '130px'
@@ -32,7 +36,9 @@ function btn_back2() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
+     const line2 =document.querySelector('.line2')
 
+     line2.style.display = 'none'
      form1.style.left = '130px'
      form2.style.left = '600px'
      form3.style.left = '1070px'
@@ -42,9 +48,11 @@ function btn_back3() {
      const form1 = document.querySelector('.form1')
      const form2 = document.querySelector('.form2')
      const form3 = document.querySelector('.form3')
+     const line3 =document.querySelector('.line3')
 
+     line3.style.display = 'none'
      form1.style.left = '-600px'
-     form2.style.left = '130px'
+     form2.style.left = '130px' 
      form3.style.left = '600px'
 };
 
