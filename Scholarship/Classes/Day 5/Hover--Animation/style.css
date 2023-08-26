@@ -9,7 +9,7 @@
      background-color: #242424;
      transition-duration: 5s;
      transition-property: all;
-     transition-delay: 3s;
+     transition-delay: 1s;
      transition-timing-function: cubic-bezier(1,0,0,1);
 }
 .box:hover {
