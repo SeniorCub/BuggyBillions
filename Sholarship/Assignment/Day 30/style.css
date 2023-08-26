@@ -5,26 +5,27 @@
      list-style: none;
      /* border: 1px solid black; */
 }
-nav  {
-     /* position: fixed; */
-     padding: 20px 50px;
+body {
+     background-color: rgba(212, 211, 211, 0.344);
+}
+nav{
+     padding: 20px;
      display: flex;
      justify-content: space-between;
-     align-items: center;
-     text-decoration: none;
-     background-color: #e5aa2d;
+     font-size: 10px;
+     place-items: center;
 }
-.brand {
+h1 {
+     text-transform: uppercase;
+     font-weight: 300;
+}
+span {
      font-weight: 900;
 }
-ul {
-     display: flex;
-     gap: 40px;
-}
-body {
-     position: relative;
-     height: 100vh;
-     background: linear-gradient(153deg, black, #050505);
+.circle {
+     padding: 10px;
+     border: 1px solid black;
+     border-radius: 100%;
 }
 .image-container {
      position: absolute;
@@ -43,5 +44,5 @@ body {
  img {
      width: 100%;
      height: 100%;
-     transition: 3s;
+     transition: .5s;
 }
