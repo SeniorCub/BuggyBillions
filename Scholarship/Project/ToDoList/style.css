@@ -1,0 +1,69 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     list-style: none;
+}
+.hero {
+     height: 20vh;
+     text-align: center;
+}
+nav {
+     padding: 20px 50px;
+     background-color: gray;
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+}
+.brand{
+     font-weight: 900;
+     font-size: 25px;
+     color: cornflowerblue;
+}
+.links{
+     display: flex;
+     gap: 20px;
+}
+a{
+     text-decoration: none;
+     color: black;
+}
+.h1 {
+     float: right;
+     font-weight: 600;
+     width: 500px;
+     text-align: center;
+     font-size: 40px;
+     border-bottom: 2px dashed gray;
+}
+.in {
+     padding: 30px;
+     display: flex;
+     gap: 10px;
+     place-items: center;
+     justify-content: center;
+     border-bottom: 2px solid black;
+}
+#myList {
+     padding: 10px;
+     border: 1px solid cornflowerblue;
+     border-radius: 20px;
+}
+.btn {
+     padding: 5px;
+     color: white;
+     background-color: cornflowerblue;
+     border: 2px black solid;
+     border-radius: 10px;
+     font-weight: 900;
+     font-size: 15px;
+}
+.btn:hover {
+     color: black;
+     background-color: white;
+     border: 2px cornflowerblue solid;
+     box-shadow: 5px 5px 5px cornflowerblue;
+}
+.out {
+     padding: 30px;
+}
