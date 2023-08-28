@@ -1,0 +1,148 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+}
+.head {
+     height: 100vh;
+}
+nav {
+     padding: 20px 50px;
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+     background-color: gray;
+}
+.links {
+     display: flex;
+     place-items: center;
+     gap: 20px;
+}
+.link a {
+     text-decoration: none;
+     color: white;
+}
+.hero {
+     display: flex;
+     align-items: center;
+}
+.part1 {
+     padding-left: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+}
+.part1 h1 {
+     font-size: 50px;
+}
+.part1 p {
+     font-size: 20px;
+}
+.but {
+     display: flex;
+     gap: 50px;
+}
+.part1 .sec {
+     border-radius: 10px;
+     padding: 5px;
+     border: 2px solid black;
+     background-color: gray;
+     font-size: 20px;
+}
+.part1 .sec a {
+     text-decoration: none;
+     color: white;
+}
+.part2 {
+     width: 90vw;
+     height: 90vh;
+}
+img {
+     width: 100%;
+     height: 100%;
+}
+.btns {
+     display: flex;
+     place-items: center;
+     gap: 10px;
+}
+
+
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+ }
+ 
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #333;
+     padding: 10px 20px;
+     color: white;
+ }
+ 
+ .logo {
+     font-size: 24px;
+     font-weight: bold;
+ }
+ 
+ .nav-links {
+     list-style: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .nav-links li {
+     margin-right: 20px;
+ }
+ 
+ .nav-links a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .burger {
+     display: none;
+     flex-direction: column;
+     cursor: pointer;
+ }
+ 
+ .line1, .line2, .line3 {
+     width: 25px;
+     height: 3px;
+     background-color: white;
+     margin: 3px 0;
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .nav-links {
+         display: none;
+         flex-direction: column;
+         background-color: #333;
+         width: 100%;
+         position: absolute;
+         top: 70px;
+         left: 0;
+         text-align: center;
+     }
+ 
+     .nav-links.active {
+         display: flex;
+     }
+ 
+     .burger {
+         display: flex;
+     }
+     .part1 {
+     padding: 0;
+     background-image: url(pexels-jorge-fakhouri-filho-2701570.jpg);
+     background-size: cover;
+     }
+     .part2 {
+          display: none;
+     }
+}
+ 

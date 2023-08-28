@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+     <section class="head">
+          <nav class="navbar">
+               <div class="logo">Music Site</div>
+               <ul class="nav-links" id="navLinks">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Music</a></li>
+                   <li><a href="#">Artists</a></li>
+                   <li><a href="#">Events</a></li>
+                   <li><a href="#">Contact</a></li>
+
+                    <div class="btns">
+                         <button class="btn"><a href="#"></a>Sign Up</button>
+                         <button class="btn"><a href="#"></a>Login</button>
+                    </div>
+               </ul>
+               <div class="burger" id="burger">
+                   <div class="line1"></div>
+                   <div class="line2"></div>
+                   <div class="line3"></div>
+               </div>
+           </nav>
+          </nav>
+
+          <div class="hero">
+               <div class="part1">
+                    <h1>Harmony awaits. Step into a world of musical enchantment.</h1>
+                    <p>Unleash Your Inner Melody. Discover, Create, and Share the Rhythm of Your Soul.</p>
+                    <div class="but">
+                         <button class="sec">
+                              <a href="#">Listen Now</a>
+                         </button>
+                         <button class="sec">
+                              <a href="#">Explore</a>
+                         </button>
+                    </div>
+               </div>
+               <div class="part2">
+                    <img src="pexels-jorge-fakhouri-filho-2701570.jpg" alt="">
+               </div>
+          </div>
+     </section>
+
+
+     <script>
+          const burger = document.getElementById("burger");
+          const navLinks = document.getElementById("navLinks");
+
+          burger.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+          });
+
+     </script>
+
+</body>
+</html>
