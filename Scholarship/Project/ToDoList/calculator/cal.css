@@ -1,0 +1,43 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.inputs {
+     padding: 10px;
+     font-size: 25px;
+     border: 2px solid grey;
+}
+.cal {
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 20px;
+     width: 300px;
+     border: 2px solid black;
+     padding: 10px;
+     background-color: cornflowerblue;
+}
+.btnss {
+     width: 100px;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 20px;
+}
+
+button {
+     font-size: 15px;
+     width: 50px;
+     padding: 5px;
+     background-color: black;
+     color: white;
+     border: 2px solid white;
+}
+.lolo {
+     width: 100%;
+}
+ul {
+     display: flex;
+     justify-content: space-between;
+}

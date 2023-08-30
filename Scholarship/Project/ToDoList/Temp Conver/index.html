@@ -5,9 +5,11 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- CSS BootStrap Link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <title>Calculator</title>
      <!-- Normal CSS Link -->
+     <link rel="stylesheet" href="cal.css">
+     <link rel="stylesheet" href="/Scholarship/Project/ToDoList/style.css">
      <link rel="stylesheet" href="style.css">
-     <title>Home</title>
 </head>
 <body>
 
@@ -17,7 +19,7 @@
           <div class="nav-links" id="navLinks">
                <ul class="links">
                     <li>
-                         <a href="./calculator/cal.html">
+                         <a href="#">
                               <i class="fa-solid fa-calculator"></i> Calculator
                          </a>
                     </li>
@@ -44,12 +46,36 @@
                <div class="line3"></div>
           </div>
      </nav>
+
+     <section>
+          <h1>Temprature Conversion</h1>
+          <div class="input">
+               <input type="text" class="in" placeholder="Enter the Number to Convert">
+               <div class="select">
+                    <div class="cel">
+                         <input type="radio" name="celcius" id="celcius">
+                         <label for=""> Celcius</label>
+                    </div>
+                    <div class="far">
+                         <input type="radio" name="celcius" id="farahn">
+                         <label for=""> Fahrenheit</label>
+                    </div>
+               </div>
+               <button type="button" class="convert">Convert</button>
+          </div>
+          <div class="output">
+               
+          </div>
+     </section>
+     
      
      <!-- BootStrap JavaScript LInk -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
      <!-- Font Awsome -->
      <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
      <!-- Normal Script Link -->
+     <script src="/Scholarship/Project/ToDoList/script.js"></script>
+     <script src="cal.js"></script>
      <script src="script.js"></script>
 </body>
 </html>

@@ -4,3 +4,99 @@
      box-sizing: border-box;
      list-style: none;
 }
+.navbar {
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     align-items: center;
+     background-color: #333;
+     padding: 10px 20px;
+     color: white;
+}
+.logo {
+     font-size: 40px;
+     font-weight: 900;
+     color: yellow;
+     text-shadow: 2px 2px 5px red;
+}
+.nav-links {
+     float: right;
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     place-items: center;
+}
+ .links {
+     display: flex;
+     gap: 20px;
+ }
+ .nav-links li {
+     list-style: none;
+ }
+ 
+ .links a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .burger {
+     display: none;
+     flex-direction: column;
+     cursor: pointer;
+ }
+ 
+ .line1, .line2, .line3 {
+     width: 25px;
+     height: 3px;
+     background-color: white;
+     margin: 3px 0;
+ }
+ .btns {
+     border: 2px solid white;
+     padding: 5px;
+     border-radius: 100%;
+}
+  
+ @media screen and (max-width: 768px) {
+     .navbar {
+          display: flex;
+          justify-content: space-between;
+     }
+     .nav-links {
+          border-radius: 30px;
+          padding: 20px;
+         display: none;
+         flex-direction: column;
+         background-color: #333;
+         width: 50%;
+         position: absolute;
+         top: 70px;
+         right: 0;
+         text-align: center;
+         gap: 50px;
+     }
+     .links {
+          flex-direction: column;
+     }
+     .nav-links.active {
+         display: flex;
+         justify-content: space-between;
+         place-items: center;
+         align-items: center;
+     }
+ 
+     .burger {
+         display: flex;
+     }
+     .hero {
+          width: 100%;
+     }
+     .part1 {
+     padding: 0;
+     background-image: url(pexels-jorge-fakhouri-filho-2701570.jpg);
+     background-size: cover;
+     }
+     .part2 {
+          display: none;
+     }
+}
+ 
