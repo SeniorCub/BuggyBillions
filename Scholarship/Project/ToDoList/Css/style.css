@@ -3,16 +3,19 @@
      margin: 0;
      box-sizing: border-box;
      list-style: none;
+     /* border: 1px solid violet; */
 }
 .navbar {
      display: grid;
      grid-template-columns: 1fr 2fr;
      align-items: center;
+     justify-content: center;
      background-color: #333;
      padding: 10px 20px;
      color: white;
+     width: 100%;
 }
-.logo {
+.brand a {
      font-size: 40px;
      font-weight: 900;
      color: yellow;
@@ -24,6 +27,7 @@
      display: flex;
      justify-content: space-between;
      place-items: center;
+     
 }
  .links {
      display: flex;
@@ -36,6 +40,7 @@
  .links a {
      text-decoration: none;
      color: white;
+     font-size: 20px;
  }
  
  .burger {
@@ -59,16 +64,41 @@
      background-color: #47bc04;
      display: grid;
      grid-template-columns: 2fr 1fr;
-     height: 91vh;
+     height: 92vh;
 }
-
+.part1 {
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     place-items: center;
+     justify-content: center;
+     gap: 30px;
+}
+.catch {
+     font-size: 25px;
+     color: black;
+     text-align: justify;
+}
+.button {
+     padding: 5px;
+     border: 2px solid black;
+     font-size: 20px;
+     border-radius: 10px;
+     background-color: #fff;
+     color: black;
+     text-decoration: none;
+}
 .part2 img {
      width: 100%;
      height: 100%;
      object-fit: cover;
 }
+
   
  @media screen and (max-width: 768px) {
+     body{
+          height: 100vh;
+     }
      .navbar {
           display: flex;
           justify-content: space-between;
@@ -100,15 +130,26 @@
          display: flex;
      }
      .hero {
+          display: flex;
           width: 100%;
+          background-image: url(side-view-man-home-couch-using-smartphone-headphones_23-2148793478.png) ;
+          background-size: cover;
      }
      .part1 {
-     padding: 0;
-     background-image: url(pexels-jorge-fakhouri-filho-2701570.jpg);
-     background-size: cover;
+          margin: 0 auto;
+          padding: 30px;
+          justify-content: center;
      }
      .part2 {
           display: none;
      }
 }
  
+@media (max-width: 500px) {
+     .navbar{
+          width: 100%;
+     }
+     .part1{
+          font-size: 10px!important;
+     }
+}

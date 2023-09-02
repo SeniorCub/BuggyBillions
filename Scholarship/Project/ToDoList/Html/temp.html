@@ -3,28 +3,30 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Temprature Calculator</title>
      <!-- CSS BootStrap Link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-     <title>Calculator</title>
      <!-- Normal CSS Link -->
-     <link rel="stylesheet" href="cal.css">
-     <link rel="stylesheet" href="/Scholarship/Project/ToDoList/style.css">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="/Scholarship/Project/ToDoList/Css/style.css">
+     <!-- Calculator CSS Link -->
+     <link rel="stylesheet" href="/Scholarship/Project/ToDoList/Css/cal.css">
+     <!-- Temprature CSS Link -->
+     <link rel="stylesheet" href="/Scholarship/Project/ToDoList/Css/temp.css">
 </head>
 <body>
 
      <nav class="navbar">
-          <div class="brand">Brand</div>
+          <div class="brand"><a href="/Scholarship/Project/ToDoList/index.html">Brand</a></div>
 
           <div class="nav-links" id="navLinks">
                <ul class="links">
                     <li>
-                         <a href="#">
+                         <a href="./cal.html">
                               <i class="fa-solid fa-calculator"></i> Calculator
                          </a>
                     </li>
                     <li>
-                         <a href="#">
+                         <a href="./ToDo.html">
                               <i class="fa-solid fa-list-check"></i> ToDo List
                          </a>
                     </li>
@@ -35,7 +37,7 @@
                     </li>
                </ul>
 
-               <div class="btns">
+               <div class="btns user">
                     <i class="fa-solid fa-user"></i>
                </div>
           </div>
@@ -46,6 +48,12 @@
                <div class="line3"></div>
           </div>
      </nav>
+
+     <div class="ul">
+          <div class="bord"><a href="/Scholarship/Project/ToDoList/Html/cal.html">Normal Calculator</a></div>
+          <div class="bord active"><a href="#">Temptature Calculator</a></div>
+          <div class=""><a href="/Scholarship/Project/ToDoList/Html/currency.html">Currency Calculator</a></div>
+     </div>
 
      <section>
           <h1>Temprature Conversion</h1>
@@ -75,7 +83,9 @@
      <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
      <!-- Normal Script Link -->
      <script src="/Scholarship/Project/ToDoList/script.js"></script>
-     <script src="cal.js"></script>
-     <script src="script.js"></script>
+     <!-- Calculator Script -->
+     <script src="/Scholarship/Project/ToDoList/cal.js"></script>
+     <!-- Temprature Script -->
+     <script src="/Scholarship/Project/ToDoList/Script/temp.js"></script>
 </body>
 </html>

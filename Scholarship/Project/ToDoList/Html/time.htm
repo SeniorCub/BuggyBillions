@@ -3,26 +3,30 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Time</title>
      <!-- CSS BootStrap Link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
      <!-- Normal CSS Link -->
-     <link rel="stylesheet" href="Css/style.css">
-     <title>Home</title>
+     <link rel="stylesheet" href="/home/senior-cub/BuggyBillions/Scholarship/Project/ToDoList/Css/style.css">
+     <!-- Calculator CSS Link -->
+     <link rel="stylesheet" href="/home/senior-cub/BuggyBillions/Scholarship/Project/ToDoList/Css/cal.css">
+     <!-- Time CSS Link -->
+     <link rel="stylesheet" href="/home/senior-cub/BuggyBillions/Scholarship/Project/ToDoList/Css/time.css">
 </head>
 <body>
 
      <nav class="navbar">
-          <div class="brand"><a href="#">Brand</a></div>
+          <div class="brand"><a href="/Scholarship/Project/ToDoList/index.html">Brand</a></div>
 
           <div class="nav-links" id="navLinks">
                <ul class="links">
                     <li>
-                         <a href="Html/cal.html">
+                         <a href="#">
                               <i class="fa-solid fa-calculator"></i> Calculator
                          </a>
                     </li>
                     <li>
-                         <a href="Html/ToDo.html">
+                         <a href="./ToDo.html">
                               <i class="fa-solid fa-list-check"></i> ToDo List
                          </a>
                     </li>
@@ -45,25 +49,36 @@
           </div>
      </nav>
 
-     <section class="hero">
-          <div class="part1">
-               <div class="catch">
-                    Scheduling made easy, Never get late anymore. Punctuality is a virtue. We love being punctual. Arrange your schedule properly. We came to arrange your life, Organized life equals success. The best calendar syncing tool in the planet.
-               </div>
-               <div class="buttonss">
-                    <a class="button btn-md start">Get Started</a>
-               </div>
-          </div>
-          <div class="part2">
-               <img src="images/portrait-young-african-woman-with-laptop-white_176420-4699-removebg-preview.png" alt="">
-          </div>
-     </section>
+     <div class="ul">
+          <div class="bord active"><a href="#">Current Time</a></div>
+          <div class="bord"><a href="#">Temptature Calculator</a></div>
+          <div class=""><a href="#">Currency Calculator</a></div>
+     </div>
+
      
+     <div>
+          <p id="day"></p>
+          <p id="month"></p>
+          <p id="year"></p>
+     </div>
+
+     <details>
+          <summary>See More...</summary>
+          <p id="demo"></p>
+     </details>
+
+
+          <button class="lolo" onclick="deleteLastCharacter()">DEL</button>
+     </div>
+
+
      <!-- BootStrap JavaScript LInk -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
      <!-- Font Awsome -->
      <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
-     <!-- Normal Script Link -->
-     <script src="Script/script.js"></script>
+     <!-- Normal Main Script Link -->
+     <script src="/home/senior-cub/BuggyBillions/Scholarship/Project/ToDoList/Script/script.js"></script>
+     <!-- Calculator Script -->
+     <script src="/home/senior-cub/BuggyBillions/Scholarship/Project/ToDoList/Script/cal.js"></script>
 </body>
 </html>
