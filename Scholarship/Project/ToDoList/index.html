@@ -11,51 +11,119 @@
 </head>
 <body>
 
-     <nav class="navbar">
-          <div class="brand"><a href="#">Brand</a></div>
 
-          <div class="nav-links" id="navLinks">
-               <ul class="links">
-                    <li>
-                         <a href="Html/cal.html">
+     <nav class="navbar-expand-lg navbar">
+          <div class="container-fluid">
+               <a class="brand navbar-brand" href="#">SnrCub</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-ligh"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+               <ul class="navbar-nav links mx-auto me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                         <a href="/Html/cal.html">
                               <i class="fa-solid fa-calculator"></i> Calculator
                          </a>
                     </li>
-                    <li>
+
+                    <li class="nav-item">
                          <a href="Html/ToDo.html">
                               <i class="fa-solid fa-list-check"></i> ToDo List
                          </a>
                     </li>
-                    <li>
-                         <a href="#">
+
+                    <li class="nav-item">
+                         <a href="Html/time.htm">
                               <i class="fa-regular fa-clock"></i> Time
                          </a>
                     </li>
+                    
                </ul>
-
-               <div class="btns user">
-                    <i class="fa-solid fa-user"></i>
+               
+               <!-- Sign IN Modal -->
+               <div id="mod"></div>
+              <!-- Second Modal -->
+               <div class="modal modal-lg fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-dark">
+                         <div class="modal-header">
+                              <h1 class="modal-title fs-5 text-prim" id="exampleModalToggleLabel">
+                                   Profile
+                              </h1>
+                              <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+               
+                         <div class="modal-body px-5">
+                              <div class="h1 text-prim" id="fullName">Reuben Farinde</div>
+               
+                              <div class="others row gap-3">
+                                   <div class="details col-5">
+                                        <i class="fa-solid fa-user"></i>
+                                        <div class="d-flex flex-column">
+                                        <div id="userName">SeniorCub</div>
+                                        <div class="Uname">Username</div>
+                                        </div>
+                                   </div>
+               
+                                   <!-- Corrected ID for email -->
+                                   <div class="details col-5">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <div class="d-flex flex-column">
+                                        <div id="uEmail">example@email.com</div>
+                                        <div class="Uname">Email</div>
+                                        </div>
+                                   </div>
+               
+                                   <div class="details col-5">
+                                        <i class="fa-solid fa-square-phone"></i>
+                                        <div class="d-flex flex-column">
+                                        <div id="phoneNumber">+1234567890</div>
+                                        <div class="Uname">Phone</div>
+                                        </div>
+                                   </div>
+               
+                                   <div class="details col-5">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <div class="d-flex flex-column">
+                                        <div id="birthDay">11-05-2005</div>
+                                        <div class="Uname">Date of Birth</div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+               
+                         <div class="modal-footer">
+                              <button class="btn btn-prim edit" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Edit</button>
+                         </div>
+                    </div>
+                    </div>
                </div>
-          </div>
+ 
 
-          <div class="burger" id="burger">
-               <div class="line1"></div>
-               <div class="line2"></div>
-               <div class="line3"></div>
+               <div class="btn btns user" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
           </div>
      </nav>
+ 
 
-     <section class="hero">
-          <div class="part1">
+     <section class="hero row">
+          <div class="part1 col-7">
                <div class="catch">
                     Scheduling made easy, Never get late anymore. Punctuality is a virtue. We love being punctual. Arrange your schedule properly. We came to arrange your life, Organized life equals success. The best calendar syncing tool in the planet.
                </div>
-               <div class="buttonss">
-                    <a class="button btn-md start">Get Started</a>
+               <div class="btn buttonss start">
+                    <a class="button btn-md" href="/Html/ToDo.html">Get Started</a>
                </div>
           </div>
-          <div class="part2">
-               <img src="images/portrait-young-african-woman-with-laptop-white_176420-4699-removebg-preview.png" alt="">
+          <div class="part2 col-5">
+               <img src="images/about-me-concept-with-collection-interests-hobbies_23-2148886206-removebg-preview.png" alt="">
           </div>
      </section>
      
@@ -65,5 +133,7 @@
      <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
      <!-- Normal Script Link -->
      <script src="Script/script.js"></script>
+     <!-- Validation Script Link -->
+     <script src="Script/validation.js"></script>
 </body>
 </html>

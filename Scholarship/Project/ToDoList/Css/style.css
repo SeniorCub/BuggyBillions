@@ -4,22 +4,22 @@
      box-sizing: border-box;
      list-style: none;
      /* border: 1px solid violet; */
+     /* overflow: hidden; */
+}
+body {
+     height: 100vh;
+     width: 100vw;
 }
 .navbar {
-     display: grid;
-     grid-template-columns: 1fr 2fr;
-     align-items: center;
-     justify-content: center;
      background-color: #333;
      padding: 10px 20px;
-     color: white;
-     width: 100%;
+     color: #FEFEFA;
 }
-.brand a {
+.brand {
      font-size: 40px;
      font-weight: 900;
-     color: yellow;
-     text-shadow: 2px 2px 5px red;
+     color: #FFB200;
+     text-shadow: 2px 2px 5px #FEFEFA;
 }
 .nav-links {
      float: right;
@@ -39,35 +39,23 @@
  
  .links a {
      text-decoration: none;
-     color: white;
+     color: #FEFEFA;
      font-size: 20px;
  }
  
- .burger {
-     display: none;
-     flex-direction: column;
-     cursor: pointer;
- }
- 
- .line1, .line2, .line3 {
-     width: 25px;
-     height: 3px;
-     background-color: white;
-     margin: 3px 0;
- }
  .btns {
-     border: 2px solid white;
+     border: 2px solid #FEFEFA;
      padding: 5px;
      border-radius: 100%;
 }
 .hero {
-     background-color: #47bc04;
-     display: grid;
-     grid-template-columns: 2fr 1fr;
-     height: 92vh;
+     background-color: #FFB200;
+     height: 100%;
+     padding: 50px;
+     place-items: center;
+     width: 100vw;
 }
 .part1 {
-     padding: 30px;
      display: flex;
      flex-direction: column;
      place-items: center;
@@ -77,79 +65,89 @@
 .catch {
      font-size: 25px;
      color: black;
-     text-align: justify;
+     text-align: center;
 }
 .button {
      padding: 5px;
      border: 2px solid black;
      font-size: 20px;
      border-radius: 10px;
-     background-color: #fff;
-     color: black;
+     background-color: #020F49;
+     color: #FEFEFA;
      text-decoration: none;
+}
+.part2 {
+     background-color: #fefefa28;
+     /* border: #333 1px solid; */
+     border-radius: 20%;
 }
 .part2 img {
      width: 100%;
-     height: 100%;
+     height: 100%;  
      object-fit: cover;
 }
 
-  
+.details {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+
+.Uname {
+     font-weight: 200;
+     font-size: small;
+     color: #FEFEFA;
+}
+.btn-prim {
+     background-color: #FFB200;
+     color: #333;
+     border: 2px solid #FEFEFA;
+     box-shadow: 2px 2px 5px #FEFEFA;
+}
+i, .text-prim, label {
+     color: #FFB200;
+}
+.bg-ligh{
+     background-color: #FFB200;
+}
+
+
  @media screen and (max-width: 768px) {
-     body{
-          height: 100vh;
-     }
-     .navbar {
-          display: flex;
-          justify-content: space-between;
-     }
-     .nav-links {
-          border-radius: 30px;
-          padding: 20px;
-         display: none;
-         flex-direction: column;
-         background-color: #333;
-         width: 50%;
-         position: absolute;
-         top: 70px;
-         right: 0;
-         text-align: center;
-         gap: 50px;
-     }
-     .links {
-          flex-direction: column;
-     }
-     .nav-links.active {
-         display: flex;
-         justify-content: space-between;
-         place-items: center;
-         align-items: center;
-     }
- 
-     .burger {
-         display: flex;
-     }
      .hero {
-          display: flex;
-          width: 100%;
-          background-image: url(side-view-man-home-couch-using-smartphone-headphones_23-2148793478.png) ;
-          background-size: cover;
+          position: relative;
+          display: block;
+          background: transparent;
+          background-color: #00000030;
      }
      .part1 {
+          width: 100%;
+          height: 100%;
           margin: 0 auto;
-          padding: 30px;
+          display: flex;
           justify-content: center;
+          z-index: 1;
      }
      .part2 {
-          display: none;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: -1;
+          background-color: #FFB200;
+          border-radius: 0;
+     }
+     .part2 img {
+          object-fit: contain;
      }
 }
  
 @media (max-width: 500px) {
+     *{
+          font-size: 20px!important;
+     }
      .navbar{
           width: 100%;
      }
-     .part1{
-          font-size: 10px!important;
-     }
+     
 }
