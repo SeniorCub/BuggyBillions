@@ -1,0 +1,91 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.ludo{
+     margin: 0 auto;
+     margin-top: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 60vw;
+     height: 70vh;
+     border: 2px solid black;
+}
+.main {
+     width: 100%;
+     height: 40%;
+     background-color: #fff;
+}
+.boxB, .boxM, .boxS {
+     border: 1px solid black;
+}
+.main .boxS {
+     padding: 0;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+}
+.boxs {
+     padding: 0;
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+}
+.box{
+     border: 1px solid black;
+}
+.mid {
+     height: 20%;
+     width: 100%;
+}
+.boxM {
+     padding: 0; 
+     border-top: 30px solid blue;
+     border-left: 30px solid red;
+     border-right: 30px solid yellow;
+     border-bottom: 30px solid green;
+}
+.red{
+     background-color: red;
+}
+.blue{
+     background-color: blue;
+}
+.green{
+     background-color: green;
+}
+.yellow{
+     background-color: yellow;
+}
+.boxB {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+}
+.circle{
+     margin: 10px;
+     background-color: #fff;
+     border-radius: 100%;
+}
+#dice {
+     width: 100px;
+     height: 100px;
+     background-color: white;
+     border: 1px solid black;
+     text-align: center;
+     font-size: 24px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+ /* Ludo.css (Add this to your existing CSS file) */
+
+#dice:hover {
+     background-color: #f0f0f0;
+ }
+ 
+ #dice:active {
+     background-color: #ddd;
+ }
+ 
