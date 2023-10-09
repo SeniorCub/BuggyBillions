@@ -3,13 +3,15 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Normal Calculator</title>
+     <title>Temprature Calculator</title>
      <!-- CSS BootStrap Link -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
      <!-- Normal CSS Link -->
      <link rel="stylesheet" href="/style.css">
      <!-- Calculator CSS Link -->
      <link rel="stylesheet" href="/Css/cal.css">
+     <!-- Temprature CSS Link -->
+     <link rel="stylesheet" href="/CalcSrc/css/temp.css">
 </head>
 <body>
 
@@ -26,7 +28,7 @@
                <ul class="navbar-nav links mx-auto me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                         <a href="#">
+                         <a href="/Html/cal.html">
                               <i class="fa-solid fa-calculator"></i> Calculator
                          </a>
                     </li>
@@ -120,12 +122,12 @@
      </nav>
 
      <div class="ul">
-          <div class="bord active">
-               <a href="#">Normal Calculator</a>
+          <div class="bord">
+               <a href="/Html/cal.html">Normal Calculator</a>
           </div>
 
-          <div class="bord">
-               <a href="/CalcSrc/html/temp.html">Temptature Calculator</a>
+          <div class="bord active">
+               <a href="#">Temptature Calculator</a>
           </div>
 
           <div>
@@ -133,42 +135,40 @@
           </div>
      </div>
 
-     <div class="cal">
-          <input type="text" class="inputs">
-
-          <div class="btnss">
-               <button class="btn1">1</button>
-               <button class="btn2">2</button>
-               <button class="btn3">3</button>
-               <button onclick="clearDisplay()">C</button>
-               <button class="btn4">4</button>
-               <button class="btn5">5</button>
-               <button class="btn6">6</button>
-               <button class="btnm">-</button>
-               <button class="btn7">7</button>
-               <button class="btn8">8</button>
-               <button class="btn9">9</button>
-               <button class="btnp">+</button>
-               <button class="btnMul">*</button>
-               <button class="btn0">0</button>
-               <button class="btnd">/</button>
-               <button onclick="calculate()">=</button>
-
+     <section>
+          <h1>Temprature Conversion</h1>
+          <div class="input">
+               <input type="text" class="in" placeholder="Enter the Number to Convert">
+               <h6>Convert To:</h6>
+               <div class="select">
+                    <div class="cel">
+                         <input type="radio" name="celcius" id="celcius">
+                         <label for=""> Celcius</label>
+                    </div>
+                    <div class="far">
+                         <input type="radio" name="celcius" id="farahn">
+                         <label for=""> Fahrenheit</label>
+                    </div>
+               </div>
+               <button type="button" class="convert">Convert</button>
           </div>
-
-          <button class="lolo" onclick="deleteLastCharacter()">DEL</button>
-     </div>
-
-
-     <!-- BootStrap JavaScript LInk -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-     <!-- Font Awsome -->
-     <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
-     <!-- Normal Script Link -->
-     <script src="/Script/script.js"></script>
-     <!-- Validation Script Link -->
-     <script src="/Script/validation.js"></script>
-     <!-- Calculator Script -->
-     <script src="/Script/cal.js"></script>
+          <div class="output">
+               
+          </div>
+     </section>
+     
+     
+    <!-- BootStrap JavaScript LInk -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
+    <!-- Normal Script Link -->
+    <script src="/Script/script.js"></script>
+    <!-- Validation Script Link -->
+    <script src="/Script/validation.js"></script>
+    <!-- Calculator Script -->
+    <script src="/Script/cal.js"></script>
+     <!-- Temprature Script -->
+     <script src="/CalcSrc/script/temp.js"></script>
 </body>
 </html>

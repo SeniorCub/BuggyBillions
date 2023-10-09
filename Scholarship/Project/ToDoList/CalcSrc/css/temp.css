@@ -17,14 +17,15 @@ section {
      align-items: center;
      gap: 20px;
      padding: 10px;
-     border-bottom: 5px solid black;
+     border-bottom: 5px solid #020F49;
 }
 h1 {
-     border-bottom: 2px dashed black;
+     color: #FFB200;
+     border-bottom: 2px dashed #020F49;
 }
 .in {
      padding: 5px;
-     border: 2px solid black;
+     border: 2px solid #020F49;
      border-radius: 20px;
 }
 .select {
@@ -34,9 +35,9 @@ h1 {
 .convert {
      padding: 10px;
      width: max-content;
-     color: #fff;
-     background-color: cornflowerblue;
-     border: 2px solid black;
+     color: #FEFEFA;
+     background-color: #FFB200;
+     border: 2px solid #020F49;
      border-radius: 20px;
 }
 .output {
