@@ -16,3 +16,8 @@ fs.appendFile((path.join(__dirname, "file", "text2.txt")), "\n Girl you sweat pa
      if (err) throw err
      console.log("File Successfully appended!!!");
 })
+// Rename file
+fs.rename((path.join(__dirname, "file", "text2.txt")), (path.join(__dirname, "file", "name.txt")) ,(err)=>{
+     if (err) throw err
+     console.log("File Successfully Renamed!!!");
+})
