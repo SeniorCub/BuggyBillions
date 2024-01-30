@@ -50,3 +50,26 @@ Day 50 :-: I dont want to loose streak
 Day 50 :-: I dont want to loose streak
 Day 50 :-: I dont want to loose streak
 Day 50 :-: I dont want to loose streak
+
+
+
+
+Microsoft Windows [Version 10.0.18363.1556]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\CELEBOBO COMPUTERS\Documents\Training\BuggyBillions>cd BackEnd Class
+
+C:\Users\CELEBOBO COMPUTERS\Documents\Training\BuggyBillions\BackEnd Class>cd NodeClass
+
+C:\Users\CELEBOBO COMPUTERS\Documents\Training\BuggyBillions\BackEnd Class\NodeClass>cd Day1
+
+C:\Users\CELEBOBO COMPUTERS\Documents\Training\BuggyBillions\BackEnd Class\NodeClass\Day1>node app
+9
+3
+6
+2
+2
+8
+5
+ade goes
+Boss, I greet you John!.
