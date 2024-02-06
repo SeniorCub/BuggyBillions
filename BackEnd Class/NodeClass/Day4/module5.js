@@ -1,6 +1,7 @@
-// module5.js
-module.exports = {
-     capitalize: (str) => str.toUpperCase(),
-     reverse: (str) => str.split('').reverse().join('')
-   };
-   
+const capitalize = (str) => {
+     return str.toUpperCase()
+}
+const reverse = (str) => {
+     return str.split('').reverse().join('')
+}    
+module.exports = { capitalize, reverse }

@@ -1,6 +1,4 @@
-// module10.js
-module.exports = {
-     isPalindrome: (str) => str === str.split('').reverse().join(''),
-     countWords: (str) => str.split(/\s+/).length
-   };
-   
+const countWords = (str) => {
+     return str.split(/\s+/).length
+}
+module.exports = countWords

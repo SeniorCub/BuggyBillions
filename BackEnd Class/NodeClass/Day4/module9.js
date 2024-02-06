@@ -1,6 +1,7 @@
-// module9.js
-module.exports = {
-     computePower: (base, exponent) => Math.pow(base, exponent),
-     calculateSquareRoot: (num) => Math.sqrt(num)
-   };
-   
+const computePower = (base, exponent) => {
+    return Math.pow(base, exponent)
+};
+const calculateSquareRoot = (num) => {
+     return Math.sqrt(num)
+};
+module.exports = {computePower, calculateSquareRoot}
