@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+          body{
+               background-image: url('https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+               background-size: cover;
+               background-position: center;
+               height: 100vh;
+               color: #fff;
+          }
+          main{
+               background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+               height: 100vh;
+          }
+          nav{
+               display: flex;
+               justify-content: space-between;
+               padding: 20px 100px;
+          }
+          .brand{
+               font-size: 30px;
+               font-weight: 900;
+               font-family: cursive;
+          }
+          .links{
+               display: flex;
+               gap: 50px;
+          }
+          .link{
+               cursor: pointer;
+               text-transform: uppercase;
+               color: #ffffff87;
+          }
+          .active{
+               color: #fff;
+               position: relative;
+          }
+          .active::before{
+               content: '';
+               display: block;
+               height: 2px;
+               background-color: midnightblue;
+               transition: 0.5s;
+               width: 100%;
+          }
+          nav .link::after{
+               content: '';
+               display: block;
+               height: 2px;
+               background-color: midnightblue;
+               transition: 0.5s;
+               width: 0;
+          }
+          nav .link:hover::after{
+               width: 100%;
+          }
+          .dropdown{
+               position: relative;
+          }
+          .dropdown-title{
+               cursor: pointer;
+          }
+          .dropdown-content{
+               position: absolute;
+               background-color: midnightblue;
+               padding: 10px;
+               top: 10px;
+               left: 0;
+               border-radius: 20px;
+               display: none;
+          }
+          .dropdown-content .link{
+               display: block;
+               margin: 10px 0;
+               color: white;
+          }
+          .dropdown:hover .dropdown-content{
+               display: block;
+          }
+          section{
+               margin: 0 auto;
+               text-align: center;
+          }
+          .hero{
+               padding: 100px 0;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+          }
+          .name{
+               font-size: 30px;
+               font-weight: 900;
+               border-top: 1px solid white;
+               border-bottom: 1px solid white;
+               width: max-content;
+               margin: 0 auto;
+               letter-spacing: 5px;
+               text-transform: uppercase;
+          }
+          .hero h1{
+               font-size: 50px;
+               font-weight: 900;
+               margin: 20px 0;
+               font-family: cursive;
+               text-transform: capitalize;
+          }
+          .hero button{
+               padding: 10px 20px;
+               background-color: midnightblue;
+               border: none;
+               border-radius: 30px;
+               color: white;
+               font-weight: 900;
+               cursor: pointer;
+               font-size: 20px;
+               text-transform: capitalize;
+          }
+          .footer{
+               position: fixed;
+               left: 10%;
+               background-color: midnightblue;
+               width: 80vw;
+               bottom: 0%;
+               display: grid;
+               grid-template-columns: repeat(4, 1fr);
+               align-items: center;
+               text-transform: uppercase;
+               font-size: 20px;
+          }
+          .first select{
+               padding: 20px 10px;
+               border: 2px solid white;
+               background-color: transparent;
+               color: white;
+               font-weight: 900;
+               width: 90%;
+               cursor: pointer;
+          }
+          .second{
+               display: flex;
+               align-items: center;
+               gap: 10px;
+               padding: 10px;
+          }
+          .second input{
+               padding: 20px 10px;
+               border: 2px solid white;
+               background-color: transparent;
+               color: white;
+               font-weight: 900;
+          }
+          .third{
+               display: flex;
+               align-items: center;
+               gap: 10px;
+               background-color: white;
+               color: rgba(25, 25, 112, 0.757);
+               cursor: pointer;
+               font-weight: 900;
+               font-size: 25px;
+               height: 100%;
+               padding: 10px;
+          }
+          .icon{
+               color: midnightblue;
+               padding: 20px;
+          }
+    </style>
+</head>
+<body>
+     <main>
+          <nav>
+               <div class="brand">REEF</div>
+               <div class="links">
+                    <div class="link active">Home</div>
+                    <div class="link">
+                         <div class="dropdown">
+                              <div class="dropdown-title">About ^</div>
+                              <div class="dropdown-content">
+                                   <div class="link">Company</div>
+                                   <div class="link">Team</div>
+                                   <div class="link">Careers</div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="link">Services</div>
+                    <div class="link">Contact</div>
+                    <div class="link">Help</div>
+               </div>
+          </nav>
+     
+          <section>
+               <div class="hero">
+                    <div class="name">Deluxe hotel</div>
+                    <h1>Make your vacation confortable</h1>
+                    <button>Book Now</button>
+               </div>
+     
+               <div class="footer">
+                    <div class="first">
+                         <select name="hotel" id="">
+                              <option value="1">Select Hotel</option>
+                              <option value="2">Adenike</option>
+                              <option value="2">Olajide's Hotel</option>
+                              <option value="3">Bayo's Hotel</option>
+                              <option value="4">UnderG</option>
+                         </select>
+                    </div>
+     
+                    <div class="second">
+                         <div class="one">Check In</div>
+                         <div class="inp">
+                              <input type="text">
+                         </div>
+                    </div>
+     
+                    <div class="second">
+                         <div class="one">Check Out</div>
+                         <div class="inp">
+                              <input type="text">
+                         </div>
+                    </div>
+     
+                    <div class="third">
+                         <div class="ii">Check Avalbility</div>
+                         <div class="icon">
+                              >
+                         </div>
+                    </div>
+               </div>
+          </section>
+     </main>
+</body>
+</html>
