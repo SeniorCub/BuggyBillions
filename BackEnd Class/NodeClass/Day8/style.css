@@ -1,0 +1,121 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+}
+.first{
+     position: relative;
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-image: linear-gradient(0deg,rgba(18,21,38,0) 4.88%,#121526),radial-gradient(100% 206.64% at 100% 0,#464c78 0,#454b77 31.27%,#373d66 46.34%,#2e3259 63.27%,#2b2f54 70.87%,#202446 83.85%,#1e2038 100%);
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 10vh;
+     padding: 60px 100px;
+}
+img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.brand{
+     width: 20%;
+}
+.others{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 45%;
+}
+a{
+     color: #fff;
+     text-decoration: none;
+}
+.links{
+     display: flex;
+     gap: 20px;
+     align-items: center;
+}
+.links a{
+     font-size: 15px;
+     font-weight: 900;
+     color: #ffffff5a;
+}
+.link a:hover{
+     color: #fff;
+}
+.bttn{
+     padding: 10px 20px;
+     border: 1px solid #4dbad6;
+     color: #fff;
+     border-radius: 5px;
+     cursor: pointer;
+     border-radius: 30px;
+     font-weight: 600;
+     font-size: 14px;
+     letter-spacing: .02em;
+}
+.bttn:hover{
+     background-color: #4dbad6;
+}
+.hero{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     padding: 0 100px;
+     height: 100vh;
+}
+.cath{
+     color: #fff;
+     font-size: 60px;
+     font-weight: 900;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     line-height: 1.5em;
+     text-align: center;
+     letter-spacing: -.01em;
+}
+.ddd{
+     background:linear-gradient(269.2deg,#4dbad6 13.54%,#348cf4 50.52%,#7b48e8 85.94%);
+     -webkit-background-clip:text;
+     background-clip:text;
+     -webkit-text-fill-color:transparent;
+}
+.icons{
+     margin: 0 auto;
+     display: flex;
+     gap: 20px;
+     width: 40%;
+     margin-bottom: 20px;
+}
+.icon{
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+}
+.icon img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+.cathchh{
+     color: #fff;
+     font-size: 30px;
+     font-weight: 900;
+     width: 60%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     line-height: 1.5em;
+     text-align: center;
+     letter-spacing: -.01em;
+}
+.one{
+     border-bottom: 1px solid #fff;
+}
