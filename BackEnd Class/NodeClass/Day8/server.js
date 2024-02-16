@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
 
   // Read the HTML file
-  const filePath = path.join(__dirname, 'index    .html');
+  const filePath = path.join(__dirname, 'index.html');
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
@@ -29,3 +29,6 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}/`);
 });
+
+
+// https://blackbox.ai/share/e5ad8105-5529-439a-b774-c52cb1b449c9
