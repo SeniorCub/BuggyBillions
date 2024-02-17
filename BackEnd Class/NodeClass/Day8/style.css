@@ -1,121 +1,131 @@
 *{
-     margin: 0;
      padding: 0;
+     margin: 0;
      box-sizing: border-box;
 }
 body{
-     font-family: 'Poppins', sans-serif;
-}
-.first{
      position: relative;
-     background-repeat: no-repeat;
-     background-position: bottom;
-     background-image: linear-gradient(0deg,rgba(18,21,38,0) 4.88%,#121526),radial-gradient(100% 206.64% at 100% 0,#464c78 0,#454b77 31.27%,#373d66 46.34%,#2e3259 63.27%,#2b2f54 70.87%,#202446 83.85%,#1e2038 100%);
+     background-color: rgba(128, 128, 128, 0.11);
+     overflow-x: hidden;
 }
-nav{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     height: 10vh;
-     padding: 60px 100px;
+form input{
+     width: 700px!important;
+}
+.bord, .ccc, .suuum, .suuu{
+     border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.btn-outline-success{
+     border: 1px solid orange;
+     color: orange;
+}
+.btn-outline-success:hover{
+     background-color: orange;
+     border: 1px solid orange;
+}
+.carts{
+     position: absolute;
+     width: 80vw;
+     height: max-content;
+     background-color: #333;
+     top: 0%;
+     left: 10%;
+     padding: 10px;
+}
+.cold{
+     gap: 20px;  
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+}
+.col{
+     background-color: #707070;
+     padding: 10px;
+}
+.col3{
+     text-align: center;
+     margin-top: auto;
+     padding: 20px;
+}
+.suuum, .ccc{
+     text-align: left;
+     font-weight: 500;
+}
+.suuum,.suuu,.ccc{
+     padding: 5px 0;
+}
+.te{
+     margin-top: 10px;
 }
 img{
      width: 100%;
      height: 100%;
-     object-fit: cover;
+     object-fit: contain;
+     background: transparent;
 }
-.brand{
-     width: 20%;
+
+
+body{
+     font-family: monospace;
 }
-.others{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: 45%;
-}
-a{
-     color: #fff;
-     text-decoration: none;
-}
-.links{
-     display: flex;
+.list{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
      gap: 20px;
-     align-items: center;
+
 }
-.links a{
-     font-size: 15px;
-     font-weight: 900;
-     color: #ffffff5a;
-}
-.link a:hover{
-     color: #fff;
-}
-.bttn{
-     padding: 10px 20px;
-     border: 1px solid #4dbad6;
-     color: #fff;
-     border-radius: 5px;
-     cursor: pointer;
-     border-radius: 30px;
-     font-weight: 600;
-     font-size: 14px;
-     letter-spacing: .02em;
-}
-.bttn:hover{
-     background-color: #4dbad6;
-}
-.hero{
+.list .item{
+     height: 400px;
+     background-color: #707070;
+     padding: 20px;
      display: flex;
      flex-direction: column;
+     justify-content: center;
      align-items: center;
-     text-align: center;
-     padding: 0 100px;
-     height: 100vh;
-}
-.cath{
      color: #fff;
-     font-size: 60px;
-     font-weight: 900;
-     margin-top: 20px;
+     box-shadow: 0 20px 20px grey;
+     letter-spacing: 1px;
+}
+.list .item img{
+     width: 100px;
+}
+.list .item .title{
+     font-weight: 600;
+}
+.list .item .price{
+     margin: 10px;
+}
+.list .item button{
+     margin: 10px 0;
+     background-color: #000;
+     color: #fff;
+     padding: 10px;
+     width: 100%;
+     cursor: pointer;
+     border-radius: 10px;
+     outline: none;
+}
+.listcard li{
+     display: grid;
+     grid-template-columns: 100px repeat(3, 1fr);
+     row-gap: 10px;
      margin-bottom: 20px;
-     line-height: 1.5em;
-     text-align: center;
-     letter-spacing: -.01em;
 }
-.ddd{
-     background:linear-gradient(269.2deg,#4dbad6 13.54%,#348cf4 50.52%,#7b48e8 85.94%);
-     -webkit-background-clip:text;
-     background-clip:text;
-     -webkit-text-fill-color:transparent;
-}
-.icons{
-     margin: 0 auto;
+.listcard li div{
      display: flex;
-     gap: 20px;
-     width: 40%;
-     margin-bottom: 20px;
+     justify-content: center;
+     align-items: center;
 }
-.icon{
+.listcard li img{
      width: 50px;
-     height: 50px;
+}
+.listcard button{
+     width: auto;
+     background-color: rgba(255, 255, 255, 0.693);
+     border: none;
+     border-radius: 10px;
+     padding: 3px;
      cursor: pointer;
 }
-.icon img{
-     width: 100%;
-     height: 100%;
-     object-fit: contain;
-}
-.cathchh{
-     color: #fff;
-     font-size: 30px;
-     font-weight: 900;
-     width: 60%;
-     margin-top: 20px;
-     margin-bottom: 20px;
-     line-height: 1.5em;
-     text-align: center;
-     letter-spacing: -.01em;
-}
-.one{
-     border-bottom: 1px solid #fff;
+.listcard .count{
+     margin: 0 10px;
 }
