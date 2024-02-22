@@ -1,15 +1,16 @@
-const axios = require('axios')
+// const axios = require('axios')
 // node script
-// import axios from "axios";
+import axios from "axios";
 // node --experimental-modules script.js to run
 const apiUrl = 'https://fakestoreapi.com/products';
 
 axios.get(apiUrl)
 .then(response =>{
-    let data = response.data
-    data.forEach(data => {
-        console.log(data);
-    });
+     console.log(response.data);
+     // let data = response.data
+     // data.forEach(data => {
+     //      console.log(data);
+     // });
 })
 .catch(error =>{
     console.log(error);
