@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#04091e70,#04091e41),url(R.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 600;
+}
+.formbox{
+    /* background: linear-gradient(to right,goldenrod, whitesmoke, skyblue); */
+    background: transparent;
+    border: 2px solid #000;
+    backdrop-filter: 10px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+h2{
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #000;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label{
+    top: -5px;
+}
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+.inputbox i{
+    position: absolute;
+    right: 8px;
+    top: 20px;
+    font-size: 1.5em;
+}
+.forget{
+    margin: 15px 0 10px;
+    font-size: .9em;
+    text-align: center;
+}
+.forget label input{
+    margin: 3px;
+}
+.forget label a{
+    text-decoration: none;
+    color: blue;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+     width: 100%;
+     height: 40px;
+     border-radius: 40px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     background: #ffd90086;
+     font-size: 1em;
+     font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.password{
+     display: flex;
+     border-bottom: 2px black solid;
+     width: 100%;
+     justify-content: space-between;
+}
+.password input{
+     width: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     font-size: 1em;
+     padding: 0 35px 0 5px;
+}
+.password i{
+     font-size: 1.5em;
+}
