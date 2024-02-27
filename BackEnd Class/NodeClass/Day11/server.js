@@ -1,7 +1,13 @@
 import express from 'express';
 import path from 'path';
 import bcrypt from 'bcrypt';
+import dotenv from 'dotenv';
+import connectDB from './connect.js'
 const app = express();
+dotenv.config();
+
+connectDB()
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
