@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heronav-section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#00000052,#0000004b),url(media/artistic_wallpapers_big_20.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-txt{
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.blog-img{
+    width: 300px;
+}
+.blog-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#00000052,#0000004b),url(media/artistic_wallpapers_big_20.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+form{
+    display: grid;
+    gap: 30px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.upload-btn{
+    display: flex;
+    justify-content: center;
+}
+.upload-btn button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 19px;
+    border-radius: 5px;
+}
